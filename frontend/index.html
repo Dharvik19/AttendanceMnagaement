@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attendance Management System</title>
+  <!-- Link your external CSS file if needed -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Attendance Management System</h1>
+  
+  <label for="attendanceDate">Select Date:</label>
+  <input type="date" id="attendanceDate" name="attendanceDate"><br><br>
+  
+  <form id="attendanceForm">
+    <div id="studentsList">
+      <!-- Student list will be populated here -->
+    </div>
+    <ul id="attendanceList"></ul>
+    <button id="getAttendanceReport">Get Attendance Report</button>
+  </form>
+  
+  <button id="submitAttendance">Submit Attendance</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
